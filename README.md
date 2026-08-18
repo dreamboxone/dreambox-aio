@@ -127,3 +127,5 @@ All rights to enigma2 and to the base image remain with Dream Property GmbH.
 
 جميع الحقوق الخاصة ببرنامج enigma2 وبالنسخة الأساسية محفوظة لشركة
 Dream Property GmbH.
+
+www.youtube.com/@routekernel
