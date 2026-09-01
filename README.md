@@ -16,23 +16,34 @@
 ### چه چیزی اضافه شده
 
 - **پشتیبانی فارسی و عربی** — حروف به‌درستی به هم می‌چسبند و متن در جهت صحیح
-  راست‌به‌چپ نمایش داده می‌شود، در منوها، لیست کانال‌ها، EPG، تنظیمات و
-  پیام‌ها.
-- **فونت فارسی** با پوشش کامل حروف پ، چ، ژ، ک، گ، ی و ارقام فارسی.
-- **۵۱۲ رشتهٔ ترجمه‌شدهٔ جدید** به فارسی، با دقت و یکدستی اصطلاحات، به همراه
-  ۲۵ اصلاح واژگانی. اولویت با منوی اصلی، درخت تنظیمات و صفحاتی است که کاربر
-  بیشتر با آن‌ها سروکار دارد.
+  راست‌به‌چپ نمایش داده می‌شود: منوها، لیست کانال‌ها، EPG، تنظیمات، پیام‌ها،
+  عنوان پنجره‌ها و صفحه‌های تنظیم تصویر.
+- **اعداد فارسی** در جهت درست نمایش داده می‌شوند (۱۴۰۵ نه ۵۰۴۱)، که برای
+  افزونه‌هایی مانند تقویم شمسی لازم است.
+- **فونت فارسی** با پوشش کامل حروف پ، چ، ژ، ک، گ، ی و ارقام فارسی، روی همهٔ
+  اسکین‌های همراه ایمیج.
+- **۵۱۲ رشتهٔ ترجمه‌شدهٔ جدید فارسی** به‌همراه ۲۶ اصلاح واژگانی، و
+  **۴۸۰ رشتهٔ ترجمه‌شدهٔ جدید عربی**. اولویت با منوی اصلی، درخت تنظیمات و
+  صفحاتی است که کاربر بیشتر با آن‌ها سروکار دارد.
 
 ### چه چیزی تغییر نکرده
 
-هیچ چیز. هیچ قابلیتی حذف، اضافه یا دستکاری نشده است. تنها تفاوت با ایمیج
-اصلی، فایل‌های مربوط به زبان و فونت است.
+هیچ قابلیتی حذف، اضافه یا دستکاری نشده است. تنها تفاوت‌ها با ایمیج اصلی،
+فایل‌های مربوط به زبان و فونت‌اند، به‌همراه بسته‌های به‌روزرسانی‌شدهٔ خودِ
+سازندگان.
 
 ### فعال کردن زبان فارسی
 
 ایمیج مانند گذشته با زبان انگلیسی بالا می‌آید:
 
 **Menu → Setup → Language → Persian**
+
+### نکته
+
+پیام کوتاهی که هنگام «راه‌اندازی مجدد رابط گرافیکی» نمایش داده می‌شود، عمداً
+به انگلیسی باقی مانده است. آن متن را خودِ هستهٔ برنامه در لحظهٔ خاموش شدن رسم
+می‌کند، جایی که پشتیبانی راست‌به‌چپ در دسترس نیست؛ بنابراین انگلیسی ماندنش
+درست‌تر از نمایش معکوس آن است.
 
 ### تشکر و اعتبار
 
@@ -57,23 +68,34 @@ right-to-left language support added.
 ### What was added
 
 - **Persian and Arabic support** — letters join correctly and text reads in
-  proper right-to-left order throughout the menus, channel list, EPG, settings
-  and message dialogs.
-- **A Persian-capable font** covering پ, چ, ژ, ک, گ, ی and Persian digits.
-- **512 newly translated Persian strings**, carefully worded and consistent in
-  terminology, plus 25 wording corrections. Priority was given to the main
+  proper right-to-left order throughout: menus, channel list, EPG, settings,
+  message dialogs, window titles and the picture-tuning screens.
+- **Persian digits** now read in the correct direction (۱۴۰۵, not ۵۰۴۱),
+  which plugins such as the Jalali calendar depend on.
+- **A Persian-capable font** covering پ, چ, ژ, ک, گ, ی and Persian digits,
+  applied to every skin shipped with the image.
+- **512 newly translated Persian strings** plus 26 wording corrections, and
+  **480 newly translated Arabic strings**. Priority was given to the main
   menu, the setup tree and the screens users actually open.
 
 ### What was not changed
 
-Nothing. No feature was removed, added, unlocked or altered. The only
-difference from the original image is the language and font files.
+No feature was removed, added, unlocked or altered. The only differences from
+the original image are the language and font files, together with the
+maintainers' own updated packages.
 
 ### Enabling Persian
 
 The image still starts in English:
 
 **Menu → Setup → Language → Persian**
+
+### A note
+
+The brief message shown while the GUI restarts is deliberately left in
+English. That text is drawn by the application core as it shuts down, past
+the point where right-to-left support is available, so English is a better
+result than showing it reversed.
 
 ### Credits and thanks
 
@@ -97,24 +119,34 @@ All rights to enigma2 and to the base image remain with Dream Property GmbH.
 
 ### ما الذي أُضيف
 
-- **دعم اللغتين الفارسية والعربية** — تتصل الحروف ببعضها بشكل صحيح ويُعرض
-  النص في اتجاهه الصحيح من اليمين إلى اليسار، في القوائم وقائمة القنوات ودليل
-  البرامج والإعدادات ورسائل النظام.
-- **خط يدعم الحروف الفارسية** بما فيها پ و چ و ژ و ک و گ و ی والأرقام الفارسية.
-- **٥١٢ نصًّا مترجمًا جديدًا** إلى الفارسية بصياغة دقيقة ومصطلحات موحّدة،
-  إضافة إلى ٢٥ تصحيحًا لغويًّا. أُعطيت الأولوية للقائمة الرئيسية وشجرة
-  الإعدادات والشاشات التي يستخدمها المستخدم فعليًّا.
+- **دعم اللغتين العربية والفارسية** — تتصل الحروف ببعضها بشكل صحيح ويُعرض
+  النص في اتجاهه الصحيح من اليمين إلى اليسار: القوائم وقائمة القنوات ودليل
+  البرامج والإعدادات ورسائل النظام وعناوين النوافذ وشاشات ضبط الصورة.
+- **الأرقام الفارسية** تُعرض في اتجاهها الصحيح (۱۴۰۵ وليس ۵۰۴۱)، وهو ما
+  تحتاجه إضافات مثل التقويم الشمسي.
+- **خط يدعم الحروف الفارسية** بما فيها پ و چ و ژ و ک و گ و ی والأرقام
+  الفارسية، مُطبَّق على كل الأشكال المرفقة بالنسخة.
+- **٤٨٠ نصًّا مترجمًا جديدًا إلى العربية**، إضافة إلى ٥١٢ نصًّا إلى الفارسية.
+  أُعطيت الأولوية للقائمة الرئيسية وشجرة الإعدادات والشاشات التي يستخدمها
+  المستخدم فعليًّا.
 
 ### ما الذي لم يتغيّر
 
-لا شيء. لم تُحذف أي ميزة ولم تُضف ولم تُفتح ولم تُعدّل. الفرق الوحيد عن النسخة
-الأصلية هو ملفات اللغة والخطوط.
+لم تُحذف أي ميزة ولم تُضف ولم تُفتح ولم تُعدّل. الفروق الوحيدة عن النسخة
+الأصلية هي ملفات اللغة والخطوط، إضافة إلى حزم التحديث الصادرة عن القائمين
+على النسخة أنفسهم.
 
 ### تفعيل اللغة
 
 تبدأ النسخة باللغة الإنجليزية كما كانت:
 
 **Menu → Setup → Language**
+
+### ملاحظة
+
+الرسالة القصيرة التي تظهر أثناء إعادة تشغيل الواجهة تُركت بالإنجليزية عن قصد.
+فهذا النص يرسمه قلب البرنامج لحظة الإغلاق، بعد أن يصبح دعم الكتابة من اليمين
+إلى اليسار غير متاح، ولذلك فإن بقاءه بالإنجليزية أفضل من عرضه معكوسًا.
 
 ### الشكر والتقدير
 
@@ -127,5 +159,3 @@ All rights to enigma2 and to the base image remain with Dream Property GmbH.
 
 جميع الحقوق الخاصة ببرنامج enigma2 وبالنسخة الأساسية محفوظة لشركة
 Dream Property GmbH.
-
-www.youtube.com/@routekernel
