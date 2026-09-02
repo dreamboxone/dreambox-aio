@@ -1,9 +1,9 @@
 # Dreambox One / Two — Persian & Arabic Language Support
 
 > **This image belongs to Dream Property GmbH.**
-> The changes made to it are: Persian and Arabic language support was added,
-> and the third-party GP4 / Gemini plugin suite was removed. enigma2 itself
-> and the rest of the system are unmodified — nothing was unlocked or altered.
+> The only change made to it is the addition of Persian and Arabic language
+> support. enigma2 itself and the rest of the system are unmodified — nothing
+> was unlocked or altered.
 
 ---
 
@@ -27,19 +27,6 @@
   **۴۸۰ رشتهٔ ترجمه‌شدهٔ جدید عربی**. اولویت با منوی اصلی، درخت تنظیمات و
   صفحاتی است که کاربر بیشتر با آن‌ها سروکار دارد.
 
-### چه چیزی حذف شده
-
-بستهٔ افزونه‌های **GP4 / Gemini** به‌طور کامل حذف شده است: BluePanel،
-Netcast، FileBrowser، AddonManager، QButton، StreamRipper، HwManager و بقیهٔ
-اجزای آن، به‌همراه دو بستهٔ وابسته (`livestreamer` و `netcast-hoster`) که
-بدون آن‌ها کار نمی‌کردند. مجموعاً ۱۸ بسته.
-
-پایگاه‌دادهٔ بسته‌ها هم متناسب با آن پاک‌سازی شده، پس `apt` و `dpkg` وضعیت
-سازگاری دارند و دنبال بسته‌ای که وجود ندارد نمی‌گردند.
-
-کتابخانهٔ `youtube_dl` (بستهٔ `youtubegp`) عمداً نگه داشته شده — بستهٔ
-مستقلی است که فقط پوشه‌اش را با GP4 شریک بود.
-
 ### نصب دستی پنل GP4.2 (اختیاری)
 
 اگر بعداً پنل GP4.2 را خواستید، از داخل شل ریسیور (SSH یا تل‌نت) این را اجرا
@@ -54,9 +41,8 @@ apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/g
 
 ### چه چیزی دست‌نخورده مانده
 
-خودِ enigma2، درایورها، اسکین‌ها و بقیهٔ سیستم بدون تغییرند. جز حذف GP4،
-تنها تفاوت‌ها با ایمیج اصلی، فایل‌های مربوط به زبان و فونت‌اند، به‌همراه
-بسته‌های به‌روزرسانی‌شدهٔ خودِ سازندگان.
+خودِ enigma2، درایورها، اسکین‌ها و بقیهٔ سیستم بدون تغییرند. تنها تفاوت‌ها با
+ایمیج اصلی، فایل‌های مربوط به زبان و فونت‌اند.
 
 ### فعال کردن زبان فارسی
 
@@ -104,24 +90,10 @@ right-to-left language support added.
   **480 newly translated Arabic strings**. Priority was given to the main
   menu, the setup tree and the screens users actually open.
 
-### What was removed
-
-The **GP4 / Gemini** plugin suite has been removed in full: BluePanel,
-Netcast, FileBrowser, AddonManager, QButton, StreamRipper, HwManager and the
-rest of its components, along with two packages that depended on it and could
-not work without it (`livestreamer` and `netcast-hoster`). Eighteen packages
-in total.
-
-The package database was cleaned up to match, so `apt` and `dpkg` stay
-consistent rather than looking for packages that are no longer there.
-
-The `youtube_dl` library (package `youtubegp`) was deliberately kept — it is
-an independent package that merely shared a directory with GP4.
-
 ### Installing the GP4.2 panel manually (optional)
 
-If you want the GP4.2 panel back later, run this from a shell on the receiver
-(SSH or telnet):
+If you want the GP4.2 panel, run this from a shell on the receiver (SSH or
+telnet):
 
 ```
 apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php && apt install -y /tmp/geminilocale_all.deb
@@ -133,9 +105,8 @@ rest of the GP4 components with it.
 ### What was left alone
 
 enigma2 itself, the drivers, the skins and the rest of the system are
-untouched. Apart from the GP4 removal, the only differences from the original
-image are the language and font files, together with the maintainers' own
-updated packages.
+untouched. The only differences from the original image are the language and
+font files.
 
 ### Enabling Persian
 
@@ -183,19 +154,6 @@ All rights to enigma2 and to the base image remain with Dream Property GmbH.
   أُعطيت الأولوية للقائمة الرئيسية وشجرة الإعدادات والشاشات التي يستخدمها
   المستخدم فعليًّا.
 
-### ما الذي أُزيل
-
-أُزيلت حزمة إضافات **GP4 / Gemini** بالكامل: BluePanel و Netcast و
-FileBrowser و AddonManager و QButton و StreamRipper و HwManager وبقية
-مكوّناتها، إضافة إلى حزمتين كانتا تعتمدان عليها ولا تعملان بدونها
-(`livestreamer` و `netcast-hoster`). ثماني عشرة حزمة إجمالًا.
-
-نُظّفت قاعدة بيانات الحزم بما يوافق ذلك، فيبقى `apt` و `dpkg` متّسقَين بدل
-البحث عن حزم لم تعد موجودة.
-
-أُبقيت مكتبة `youtube_dl` (حزمة `youtubegp`) عن قصد، فهي حزمة مستقلة كانت
-تشارك GP4 المجلد نفسه فقط.
-
 ### تثبيت لوحة GP4.2 يدويًّا (اختياري)
 
 إن أردت لوحة GP4.2 لاحقًا، نفّذ هذا الأمر من سطر أوامر الجهاز (عبر SSH أو
@@ -209,9 +167,8 @@ apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/g
 
 ### ما الذي لم يتغيّر
 
-برنامج enigma2 نفسه والمشغّلات والأشكال وبقية النظام لم تُمسّ. وبخلاف إزالة
-GP4، فإن الفروق الوحيدة عن النسخة الأصلية هي ملفات اللغة والخطوط، إضافة إلى
-حزم التحديث الصادرة عن القائمين على النسخة أنفسهم.
+برنامج enigma2 نفسه والمشغّلات والأشكال وبقية النظام لم تُمسّ. الفروق الوحيدة
+عن النسخة الأصلية هي ملفات اللغة والخطوط.
 
 ### تفعيل اللغة
 
