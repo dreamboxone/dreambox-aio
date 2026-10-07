@@ -193,3 +193,40 @@ apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/g
 
 جميع الحقوق الخاصة ببرنامج enigma2 وبالنسخة الأساسية محفوظة لشركة
 Dream Property GmbH.
+
+---
+
+<div dir="rtl">
+
+## 💚 حمایت از این پروژه
+
+اگر این پروژه به کارتان آمده، می‌توانید با واریز تتر از آن حمایت کنید:
+
+**USDT (تتر) — فقط شبکه BEP20 (BSC)**
+
+</div>
+
+```
+0x56daaa6b76d88ee0c8dba8042121f4b77de0a813
+```
+
+<div dir="rtl">
+
+> ⚠️ این آدرس فقط برای واریز تتر در شبکه BEP20 (BSC) است. واریز ارز دیگر یا از شبکه دیگر به این آدرس از دست می‌رود.
+
+</div>
+
+---
+
+## 💚 Support this project
+
+If this project has been useful to you, you can support it with Tether:
+
+**USDT — BEP20 (BSC) network only**
+
+```
+0x56daaa6b76d88ee0c8dba8042121f4b77de0a813
+```
+
+> [!WARNING]
+> This address is for USDT on the BEP20 (BSC) network only. Any other coin, or USDT sent over any other network, is lost.
